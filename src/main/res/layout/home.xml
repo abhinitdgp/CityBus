@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home"
+    android:weightSum="1"
+    >
+
+
+    <Button
+        android:text=""
+        android:layout_width="195dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="90dp"
+
+        android:background="@drawable/login"
+        android:id="@+id/log"
+        android:layout_weight="0.14" />
+
+    <Button
+        android:text=""
+        android:layout_width="195dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/reg"
+        android:background="@drawable/register"
+        android:layout_weight="0.14" />
+
+    <Button
+        android:text=""
+        android:layout_width="195dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="90dp"
+        android:id="@+id/gue"
+
+        android:background="@drawable/guest"
+        android:layout_weight="0.14" />
+</RelativeLayout>
